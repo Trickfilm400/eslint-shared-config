@@ -16,6 +16,10 @@
     "node",
     "nodejs"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Trickfilm400/eslint-shared-config"
+  },
   "author": {
     "email": "trickfilm400@gmail.com",
     "name": "Trickfilm400"

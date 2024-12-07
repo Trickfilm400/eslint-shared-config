@@ -1,0 +1,44 @@
+{
+  "name": "@trickfilm400/eslint-shared-config",
+  "version": "0.0.1",
+  "description": "eslint-shared-config",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "node .",
+    "build": "tsc",
+    "eslint": "eslint src/**/*.ts"
+  },
+  "keywords": [
+    "eslint-shared-config",
+    "created-with-typescript-new-project-scaffolding",
+    "template",
+    "typescript",
+    "node",
+    "nodejs"
+  ],
+  "author": {
+    "email": "trickfilm400@gmail.com",
+    "name": "Trickfilm400"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/eslint__js": "^8.42.3",
+    "@types/node": "^20.14.8",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@stylistic/eslint-plugin": ">=2",
+    "eslint-plugin-prettier": ">=5",
+    "typescript-eslint": ">=8"
+  },
+  "peerDependencies": {
+    "@eslint/js": ">=9",
+    "eslint": ">=9"
+  },
+  "files": [
+    "dist",
+    "typings"
+  ],
+  "type": "module",
+  "typings": "typings/index.d.ts"
+}
